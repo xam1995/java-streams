@@ -158,8 +158,8 @@ public class Guest {
 }
 ```
 
-```java 
-       List<Guest> guestList = new ArrayList<>(List.of(
+```java
+List<Guest> guestList = new ArrayList<>(List.of(
                 new Guest("Gatsby", 30, "Gold"),
                 new Guest("Flapper", 25, "Pearl"),
                 new Guest("Daisy", 28, "Champagne"),
@@ -183,7 +183,7 @@ public class Guest {
                 new Guest("Lionel", 33, "Burgundy"),
                 new Guest("Olive", 30, "Copper"),
                 new Guest("Horace", 32, "Periwinkle"),
-                new Guest("Violet", 26, "Cobalt”),
+                new Guest("Violet", 26, "Cobalt"),
                 new Guest("Evelyn", 29, "Turquoise"),
                 new Guest("Walter", 34, "Magenta"),
                 new Guest("Lillian", 31, "Cyan"),
@@ -203,7 +203,7 @@ public class Guest {
                 new Guest("Pearl", 30, "Rose"),
                 new Guest("Harvey", 35, "Thistle"),
                 new Guest("Eleanor", 26, "Honeydew"),
-                new Guest("Frederick", 32, "Denim”),
+                new Guest("Frederick", 32, "Denim"),
                 new Guest("Beatrice", 29, "Lemon"),
                 new Guest("Herman", 34, "Taffy"),
                 new Guest("Mabel", 31, "Lilac"),
@@ -213,7 +213,7 @@ public class Guest {
                 new Guest("Eloise", 30, "Lavender"),
                 new Guest("Calvin", 35, "Sapphire"),
                 new Guest("Adeline", 26, "Periwinkle"),
-                new Guest("Percy", 32, "Slate”),
+                new Guest("Percy", 32, "Slate"),
                 new Guest("Esther", 29, "Blush"),
                 new Guest("Milton", 34, "Mauve"),
                 new Guest("Agnes", 31, "Peach"),
