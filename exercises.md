@@ -41,7 +41,7 @@ Use streams to sort the Fortune 500 company names in alphabetical order. Then, l
 
 <details>
   <summary>Hint 💡</summary>
-You need to sort(), limit() and collect().
+You need to sorted(), limit() and collect().
 </details>
 
 ### Exercise 3: Grouping and Counting 🔢
@@ -118,7 +118,7 @@ List<Integer> salaries = List.of(
 
 <details>
   <summary>Hint 💡</summary>
-Your result is of the type IntSummaryStatistics. You’ll need to mapToInt your primitive ints first and then summaryStatistics.
+Your result is of the type IntSummaryStatistics. You’ll need to mapToInt() your primitive ints first and then store them in summaryStatistics.
 </details>
 
 ### Exercise 5: Chaining Operations ⛓️
