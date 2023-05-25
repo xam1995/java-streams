@@ -30,9 +30,9 @@ Use the table below to get an idea of how to rewrite lambdas into their correspo
 
 | Lambda Expressions               | Equivalent Method References |
 |----------------------------------|------------------------------|
-| (s) -> Integer.parselnt(s)       | Integer:parselnt             |
+| (s) -> Integer.parselnt(s)       | Integer::parselnt            |
 | (String s) -> s.toLowerCase()    | String::toLowerCase          |
-| (int i) -> System.out.println(i) | System.out:println           |
+| (int i) -> System.out.println(i) | System.out::println          |
 | (Student s) -> s.getName()       | Student::getName             |
 | () -> s.getName()                | s::getName                   |
 | () -> new Student()              | Student::new                 |
@@ -246,7 +246,7 @@ public class ShoppingCart {
 Use the map method to extract the relevant fields for each calculation (e.g. price and number of items for averages, weekday for finding purchase patterns), then use the appropriate terminal operations (e.g. average, max, min) to compute the results.
 </details>
 
-### Exercise 9: The Video Game Store 👾🕹
+### Exercise 9: The Video Game Store 👾🕹 | ⭐️⭐️
 
 You're 17 (again) and landed your first job at a video game store, mostly thanks to your mom knowing somebody who works
 there. But let's
